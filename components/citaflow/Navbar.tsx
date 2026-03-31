@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="rounded-xl bg-green-900 p-2">
             <SquareCheckBig className="h-4 w-4 text-white" />
           </div>
-          <span className="text-lg font-semibold tracking-tight">CitaFlow</span>
+          <Link href="/" className="text-lg font-semibold tracking-tight">CitaFlow</Link>
         </div>
 
         <div className="hidden items-center gap-6 md:flex">
